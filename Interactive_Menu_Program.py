@@ -1,4 +1,4 @@
-from topics import *
+from Topics import *
 import os
 
 print("\n")
@@ -336,4 +336,5 @@ while True:
         break
     else:
         os.system('cls')
+
         print("\t\t\t\t\t\tInvalid Input, Please try again!")
