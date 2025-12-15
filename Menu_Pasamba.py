@@ -61,7 +61,7 @@ print(Style.RESET_ALL)
 
 print("\n")
 print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-print(f"" "|" + Fore.BLUE + "\tWelcome {name}, to Interactive Menu Program.\t" + Style.RESET_ALL + "|" ) #f string
+print(f"|Welcome {name}, to Interactive Menu Program.\t\t|") #f string
 print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 print("\n")
 print("|=======================================================|")
@@ -841,3 +841,4 @@ while True:
         os.system('cls')
         print(Fore.RED + "\t\t\t\t\t\tInvalid Input, Please try again!")
         print(Style.RESET_ALL)
+
